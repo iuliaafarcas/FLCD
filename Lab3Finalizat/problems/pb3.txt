@@ -1,0 +1,17 @@
+start program isStringContainingNumbers
+start declare
+String str,  numbers[];
+Boolean ok;
+end declare
+start body
+numbers=['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+ok=false;
+read str;
+foreach i in str
+{
+? ( i  in numbers) {ok=true;}
+}
+? (ok == true) {print << "Yes" >>}
+?! {print << "No" >>}
+end body
+end program
