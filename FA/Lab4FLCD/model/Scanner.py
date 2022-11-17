@@ -7,7 +7,7 @@ from model.Specifications import operators, separators, reservedWords
 
 # operators = ['+' '-' '*' '/' '==' '!=' '=' '<' '<='  '>=' 'or' 'and' '!' '%']
 class Scanner:
-    # var
+
     def isIdentifier(self, token):
         return re.match(r'^[a-zA-Z][a-zA-Z0-9_]*$', token) is not None
 

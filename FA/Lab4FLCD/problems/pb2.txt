@@ -1,0 +1,13 @@
+start program computeGDC
+start declare
+Number: a,b;
+end declare
+start body
+while (a != b)
+{
+? ( a > b) {a=a-b;}
+?! {b=b-a;}
+}
+print << a >>;
+end body
+end program

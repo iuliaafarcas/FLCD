@@ -1,2 +1,2 @@
 Symbol Table: 
-{2: ['isNumberPrime', 'ok', '2'], 0: ['x', 'i', '"prime"'], 1: ['1', '"notprime"']}
+{2: ['isNumberPrime', 'ok', '2'], 1: ['xa', 'ax', '1', '"notprime"'], 0: ['i', 'x', '"prime"']}

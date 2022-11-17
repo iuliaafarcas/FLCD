@@ -1,13 +1,12 @@
 start program isNumberPrime
 start declare
-Number: xa; @
-Number: ax;
+Number: x;
 Boolean: ok=true;
 end declare
 start body
 go i [ from 2 to x/2 ]
 {
-? ( xa % i == 1 ) {ax=false;}
+? ( x % i == 1 ) {ok=false;}
 }
 ? ( ok == true) {print << x +  "prime" >>}
 ?! {print << x + "notprime">>}
